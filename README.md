@@ -51,7 +51,9 @@ https://framework7.io/cli/
 	Compile android application on development mode  
 	$ npm run build-dev-cordova-android  
 	Compile android application on release mode  
-	$ npm run build-prod-cordova-android
+	$ npm run build-prod-cordova-android  
+
+Compiled .apk is stored at ./cordova/platforms/android/app/build/outputs/apk/debug
 
 5. Run
 	At root project, choose one:  
@@ -63,3 +65,7 @@ https://framework7.io/cli/
 To use Apache Cordova functions on Framework7, you can do it like that:  
 $ framework7 cordova ...  
 Example: $ framework7 cordova plugin add cordova-plugin-statusbar
+
+## Routing & Pages
+- Routing: it's managed in ./src/js/routes.js file
+- Pages: they are stored in ./pages. The name of the page is like example.f7.html
