@@ -69,3 +69,6 @@ Example: $ framework7 cordova plugin add cordova-plugin-statusbar
 ## Routing & Pages
 - Routing: it's managed in ./src/js/routes.js file
 - Pages: they are stored in ./pages. The name of the page is like example.f7.html
+
+## Parameters, Methods & Properties
+https://framework7.io/docs/app.html

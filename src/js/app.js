@@ -20,7 +20,7 @@ import App from '../app.f7.html';
 // Theme
 var theme = 'auto';
 if (document.location.search.indexOf('theme=') >= 0) {
-  theme = document.location.search.split('theme=')[1].split('&')[0];
+  	theme = document.location.search.split('theme=')[1].split('&')[0];
 }
 
 var app = new Framework7({
@@ -52,5 +52,5 @@ var app = new Framework7({
 				cordovaApp.init(f7);
 			}
 		},
-	},
+	}
 });
